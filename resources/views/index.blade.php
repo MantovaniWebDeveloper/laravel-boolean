@@ -8,7 +8,14 @@
   <body>
     <header>
       <div class="container">
-        
+        <div class="row">
+          <div class="col-6 wrapLogo">
+
+          </div>
+          <div class="col-6 wrapMenu">
+            
+          </div>
+        </div>
       </div>
     </header>
   </body>

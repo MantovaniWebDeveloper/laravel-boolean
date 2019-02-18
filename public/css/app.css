@@ -10660,7 +10660,19 @@ a.text-dark:focus {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
-#testoProva {
-  color: red;
+header {
+  background-color: red;
+  height: 70px;
+  width: 100%;
+}
+
+header .wrapLogo {
+  height: 70px;
+  background-color: yellow;
+}
+
+header .wrapMenu {
+  height: 70px;
+  background-color: orange;
 }
 
