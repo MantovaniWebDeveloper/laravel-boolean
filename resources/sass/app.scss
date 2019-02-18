@@ -7,22 +7,5 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
-
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
-
-header {
-  background-color: red;
-  height: 70px;
-  width: 100%;
-  .wrapLogo {
-    height: 70px;
-    background-color: yellow;
-  }
-  .wrapMenu {
-    height: 70px;
-    background-color: orange;
-  }
-}
+// mie partials
+@import "partials/header";

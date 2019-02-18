@@ -10655,11 +10655,6 @@ a.text-dark:focus {
   }
 }
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
-
 header {
   background-color: red;
   height: 70px;
@@ -10669,10 +10664,25 @@ header {
 header .wrapLogo {
   height: 70px;
   background-color: yellow;
+  line-height: 70px;
+}
+
+header .wrapLogo .logo {
+  max-width: 100%;
+  height: 50px;
 }
 
 header .wrapMenu {
   height: 70px;
   background-color: orange;
+  line-height: 70px;
+}
+
+header .wrapMenu ul {
+  text-align: right;
+}
+
+header .wrapMenu ul .elemento {
+  display: inline-block;
 }
 

@@ -1,0 +1,25 @@
+header {
+  background-color: red;
+  height: 70px;
+  width: 100%;
+  .wrapLogo {
+    height: 70px;
+    background-color: yellow;
+    line-height: 70px;
+    .logo {
+      max-width: 100%;
+      height: 50px;
+    }
+  }
+  .wrapMenu {
+    height: 70px;
+    background-color: orange;
+    line-height: 70px;
+    ul {
+      text-align: right;
+      .elemento {
+        display: inline-block;
+      }
+    }
+  }
+}
