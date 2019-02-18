@@ -10656,14 +10656,13 @@ a.text-dark:focus {
 }
 
 header {
-  background-color: red;
+  background-color: #fff;
   height: 70px;
   width: 100%;
 }
 
 header .wrapLogo {
   height: 70px;
-  background-color: yellow;
   line-height: 70px;
 }
 
@@ -10674,7 +10673,6 @@ header .wrapLogo .logo {
 
 header .wrapMenu {
   height: 70px;
-  background-color: orange;
   line-height: 70px;
 }
 
@@ -10684,5 +10682,15 @@ header .wrapMenu ul {
 
 header .wrapMenu ul .elemento {
   display: inline-block;
+  margin: 0 30px;
+}
+
+header .wrapMenu ul .elemento a {
+  text-decoration: none;
+  color: #244967;
+}
+
+header .wrapMenu ul .elemento:hover {
+  border-bottom: 3px solid #38c172;
 }
 

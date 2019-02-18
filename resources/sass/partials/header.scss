@@ -1,10 +1,9 @@
 header {
-  background-color: red;
+  background-color: #fff;
   height: 70px;
   width: 100%;
   .wrapLogo {
     height: 70px;
-    background-color: yellow;
     line-height: 70px;
     .logo {
       max-width: 100%;
@@ -13,12 +12,20 @@ header {
   }
   .wrapMenu {
     height: 70px;
-    background-color: orange;
     line-height: 70px;
     ul {
       text-align: right;
       .elemento {
         display: inline-block;
+        margin: 0 30px;
+        & a {
+          text-decoration: none;
+          color: $bluScuro;
+        }
+      }
+      .elemento:hover {
+        border-bottom: 3px solid $green;
+
       }
     }
   }
