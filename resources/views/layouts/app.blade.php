@@ -3,13 +3,9 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="{{ asset('css/app.css')}}">
-    <title>index</title>
+    <title>Laravel-boolean by Dario Mantovani</title>
   </head>
   <body>
-    <header>
-      <div class="container">
-        
-      </div>
-    </header>
+
   </body>
 </html>

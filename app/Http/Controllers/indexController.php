@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 class indexController extends Controller
 {
     public function index(){
-      var_dump("la rotta vive");
+      $nominativo = "dario";
+
+      return view("index", compact('nominativo'));
     }
 }
