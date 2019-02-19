@@ -1,9 +1,8 @@
 .wrapTextPromo {
   display: flex;
   align-items: center;
-  height: 400px;
+  height: 500px;
   width: 100%;
-  background-color: yellow;
   .content {
     h2 {
       color: $green;
@@ -12,10 +11,27 @@
     p {
       font-size: 20px;
     }
+    .btnScopri {
+      font-size: 15px;
+      color: $bluScuro;
+      background-color: transparent;
+      padding: 20px 50px;
+    }
   }
 }
+.retGreen {
+  position: absolute;
+  right: 0;
+  height: 500px;
+  width: 25%;
+  background-color: $green;
+}
 .wrapImgPromo {
-  height: 400px;
+  display: flex;
+  align-items: center;
+  height: 500px;
   width: 100%;
-  background-color: red;
+  .content {
+
+  }
 }

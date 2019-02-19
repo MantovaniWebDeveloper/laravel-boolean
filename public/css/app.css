@@ -10702,9 +10702,8 @@ header .wrapMenu ul .elemento:hover {
 .wrapTextPromo {
   display: flex;
   align-items: center;
-  height: 400px;
+  height: 500px;
   width: 100%;
-  background-color: yellow;
 }
 
 .wrapTextPromo .content h2 {
@@ -10716,9 +10715,25 @@ header .wrapMenu ul .elemento:hover {
   font-size: 20px;
 }
 
+.wrapTextPromo .content .btnScopri {
+  font-size: 15px;
+  color: #244967;
+  background-color: transparent;
+  padding: 20px 50px;
+}
+
+.retGreen {
+  position: absolute;
+  right: 0;
+  height: 500px;
+  width: 25%;
+  background-color: #38c172;
+}
+
 .wrapImgPromo {
-  height: 400px;
+  display: flex;
+  align-items: center;
+  height: 500px;
   width: 100%;
-  background-color: red;
 }
 
