@@ -10737,3 +10737,14 @@ header .wrapMenu ul .elemento:hover {
   width: 100%;
 }
 
+footer {
+  height: 600px;
+  width: 100%;
+}
+
+footer .topFooter {
+  background-color: #244967;
+  height: 400px;
+  width: 100%;
+}
+
