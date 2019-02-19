@@ -10699,3 +10699,26 @@ header .wrapMenu ul .elemento:hover {
   border-bottom: 3px solid #38c172;
 }
 
+.wrapTextPromo {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+  background-color: yellow;
+}
+
+.wrapTextPromo .content h2 {
+  color: #38c172;
+  font-size: 55px;
+}
+
+.wrapTextPromo .content p {
+  font-size: 20px;
+}
+
+.wrapImgPromo {
+  height: 400px;
+  width: 100%;
+  background-color: red;
+}
+

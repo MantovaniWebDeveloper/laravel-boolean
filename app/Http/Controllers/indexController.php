@@ -8,6 +8,7 @@ class indexController extends Controller
 {
     public function index(){
       $nominativo = "dario";
+      
 
       return view("index", compact('nominativo'));
     }

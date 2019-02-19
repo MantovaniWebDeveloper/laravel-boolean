@@ -1,0 +1,21 @@
+.wrapTextPromo {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+  background-color: yellow;
+  .content {
+    h2 {
+      color: $green;
+      font-size: 55px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}
+.wrapImgPromo {
+  height: 400px;
+  width: 100%;
+  background-color: red;
+}
