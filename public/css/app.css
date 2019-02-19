@@ -10690,6 +10690,11 @@ header .wrapMenu ul .elemento a {
   color: #244967;
 }
 
+header .wrapMenu ul .elemento .btnIscriviti {
+  background-color: #f6993f;
+  color: #fff;
+}
+
 header .wrapMenu ul .elemento:hover {
   border-bottom: 3px solid #38c172;
 }

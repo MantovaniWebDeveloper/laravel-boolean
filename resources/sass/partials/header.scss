@@ -22,10 +22,13 @@ header {
           text-decoration: none;
           color: $bluScuro;
         }
+        .btnIscriviti {
+          background-color: $orange;
+          color: #fff;
+        }
       }
       .elemento:hover {
         border-bottom: 3px solid $green;
-
       }
     }
   }

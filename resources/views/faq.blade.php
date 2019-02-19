@@ -8,7 +8,7 @@
   <body>
     @include('_partials._header')
     <div class="container-fluid">
-      <p>sono la home</p>
+      <p>{{ $nominativo }}</p>
     </div>
   </body>
 </html>

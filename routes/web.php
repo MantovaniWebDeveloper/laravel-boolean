@@ -12,3 +12,7 @@
 */
 
 Route::get('/', 'indexController@index')->name('home');
+Route::get('/corso', 'pagineInterne@corso')->name('corso-boolean');
+Route::get('/medoto', 'pagineInterne@metodo')->name('metodo-boolean');
+Route::get('/dopoIlCorso', 'pagineInterne@dopoIlCorso')->name('dopo-il-corso');
+Route::get('/faq', 'pagineInterne@faq')->name('faq-boolean');
