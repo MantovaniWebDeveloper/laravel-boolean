@@ -6,6 +6,6 @@
     <title>Laravel-boolean by Dario Mantovani</title>
   </head>
   <body>
-
+    @yield('segnapostoContent')
   </body>
 </html>
