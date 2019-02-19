@@ -2,9 +2,30 @@ footer {
   height: 600px;
   width: 100%;
   .topFooter {
+    display: flex;
+    align-items: center;
     background-color: $bluScuro;
     height: 400px;
     width: 100%;
+    color: #fff;
+    .topFooterContent {
+      h3 {
+        font-size: 30px;
+      }
+      p {
+        padding-top: 20px;
+        font-size: 20px;
+        padding-bottom: 20px;
+      }
+      .btnIscriviti {
+        background-color: $orange;
+        color: #fff;
+        padding: 15px 30px;
+        border: none;
+        text-align: center;
+        font-size: 22px;
+      }
+    }
 
   }
 }

@@ -10743,8 +10743,30 @@ footer {
 }
 
 footer .topFooter {
+  display: flex;
+  align-items: center;
   background-color: #244967;
   height: 400px;
   width: 100%;
+  color: #fff;
+}
+
+footer .topFooter .topFooterContent h3 {
+  font-size: 30px;
+}
+
+footer .topFooter .topFooterContent p {
+  padding-top: 20px;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+footer .topFooter .topFooterContent .btnIscriviti {
+  background-color: #f6993f;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  text-align: center;
+  font-size: 22px;
 }
 
