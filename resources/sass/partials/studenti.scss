@@ -1,0 +1,22 @@
+.wrapStudente {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  background-color: $bluScuro;
+  border-radius: 4px;
+  color: #fff;
+  .wrapImgStudente {
+    img {
+      border-radius: 100%;
+      height: 70px;
+    }
+  }
+  .wrapContentStudente {
+    padding-left: 20px;
+    height: 70px;
+  }
+}

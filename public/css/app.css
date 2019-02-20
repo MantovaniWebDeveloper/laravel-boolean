@@ -10737,6 +10737,29 @@ header .wrapMenu ul .elemento:hover {
   width: 100%;
 }
 
+.wrapStudente {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #244967;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.wrapStudente .wrapImgStudente img {
+  border-radius: 100%;
+  height: 70px;
+}
+
+.wrapStudente .wrapContentStudente {
+  padding-left: 20px;
+  height: 70px;
+}
+
 footer {
   height: 600px;
   width: 100%;
