@@ -16,6 +16,10 @@ class studenteControl extends Controller
           $risultato = $studente;
         }
       }
+
+      if(empty($risultato)) {
+        abort(404);
+      }
       return view("show", compact('risultato'));
     }
 
