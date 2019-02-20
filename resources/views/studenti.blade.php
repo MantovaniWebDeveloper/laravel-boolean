@@ -13,7 +13,7 @@
               <img src="{{ $studente["img"] }}" alt="">
             </div>
             <div class="wrapContentStudente">
-              <h3>{{ $studente["nome"] }} {{ $studente["cognome"] }} ({{ $studente["eta"] }}anni)</h3>
+              <h3><a href="{{ route('studenti.show', $studente["slug"])}}">{{ $studente["nome"] }} {{ $studente["cognome"] }} ({{ $studente["eta"] }}anni)</a></h3>
               <p>Ora è {{ $studente["professione"] }}</p>
             </div>
           </div>
