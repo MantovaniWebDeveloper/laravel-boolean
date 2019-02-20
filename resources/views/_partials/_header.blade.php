@@ -7,6 +7,7 @@
         <div class="col-9 wrapMenu">
           <ul>
             <li class="elemento"><a href="{{ route('home') }}">HOME</a></li>
+            <li class="elemento"><a href="{{ route('studenti-boolean') }}">STUDENTI</a></li>
             <li class="elemento"><a href="{{ route('corso-boolean') }}">CORSO</a></li>
             <li class="elemento"><a href="{{ route('metodo-boolean') }}">METODO</a></li>
             <li class="elemento"><a href="{{ route('dopo-il-corso') }}">DOPO IL CORSO</a></li>

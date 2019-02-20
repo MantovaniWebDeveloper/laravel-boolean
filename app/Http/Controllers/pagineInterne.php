@@ -12,6 +12,12 @@ class pagineInterne extends Controller
     return view("corso", compact('nominativo'));
   }
 
+  public function studenti(){
+    $nominativo = "Sono la pagina studenti";
+
+    return view("studenti", compact('nominativo'));
+  }
+
   public function metodo(){
     $nominativo = "Sono la pagina metodo";
 
