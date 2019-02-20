@@ -13,9 +13,9 @@ class pagineInterne extends Controller
   }
 
   public function studenti(){
-    $nominativo = "Sono la pagina studenti";
+    $studenti = config("studenti");
 
-    return view("studenti", compact('nominativo'));
+    return view("studenti", compact('studenti'));
   }
 
   public function metodo(){

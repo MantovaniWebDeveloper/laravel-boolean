@@ -6,7 +6,7 @@
 
   <div class="container">
     <div class="row">
-      @foreach (config("studenti") as $key => $studente)
+      @foreach ($studenti  as $key => $studente)
         <div class="col-6">
           <div class="wrapStudente">
             <div class="wrapImgStudente">
