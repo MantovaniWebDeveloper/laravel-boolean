@@ -10,10 +10,10 @@
         <div class="col-6">
           <div class="wrapStudente">
             <div class="wrapImgStudente">
-              <img src="https://www.boolean.careers/images/students/biagini.png" alt="">
+              <img src="{{ $studente["img"] }}" alt="">
             </div>
             <div class="wrapContentStudente">
-              <h3>{{ $studente["nome"] }}</h3>
+              <h3>{{ $studente["nome"] }} {{ $studente["cognome"] }} ({{ $studente["eta"] }}anni)</h3>
               <p>Ora è {{ $studente["professione"] }}</p>
             </div>
           </div>
